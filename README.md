@@ -1,0 +1,28 @@
+# Tools
+
+- Vite
+- React
+- Typescript
+- Jest
+- Eslint
+- Prettier
+- Tailwind + JIT
+- Postcss
+- lint-staged
+- commitlint
+- Husky
+- Eslint-Airbnb
+- Swc
+- Sandbox
+- Atomic Design organization
+- Absolute Imports
+- unicorn filename enforcing
+- Netlify deploy
+- Checker-vite
+- Wdyr
+- js polyfill
+- css polyfill
+- Docker
+- A11y eslint
+- e2e puppeteer
+- devcontainer

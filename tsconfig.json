@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ES2015",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+
+    "paths": {
+      "app/*": ["./src/app/*"],
+      "components/*": ["./src/components/*"]
+    },
+  },
+  "include": [
+    "vite.config.ts",
+    "src",
+    "src/.build/dev/reportWebVitals.ts",
+    "src/.e2e"
+  ]
+}

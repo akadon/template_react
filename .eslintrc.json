@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "prettier",
+    "eslint:recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react", "@typescript-eslint", "unicorn", "jsx-a11y"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "jsx-a11y/rule-name": "off",
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "unicorn/filename-case": ["error", { "case": "camelCase" }],
+    "import/no-named-as-default": "off",
+    "import/no-extraneous-dependencies": "off"
+  },
+  "ignorePatterns": ["/*", "!/src"]
+}
